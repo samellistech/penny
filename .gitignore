@@ -1,0 +1,44 @@
+# Private runtime data and local configuration
+Data/
+data/
+*.db
+*.db-*
+*.sqlite*
+*.log
+*.lock
+.env
+.env.*
+!.env.example
+config.py
+secrets*
+credentials*
+*.pem
+*.key
+
+# Environments, compiled files, build output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Personal exports, recordings, models, backups and assessment work
+*backup*/
+*.bak*
+*.zip
+*.gguf
+*.pt
+*.safetensors
+*.wav
+*.mp3
+*.mp4
+assessment*/
+coursework*/
+private/
