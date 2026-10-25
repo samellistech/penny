@@ -1,0 +1,18 @@
+# Generated Penny Music Studio projects/audio and optional local assets
+*.pennyjson
+*.mid
+*.midi
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.sf2
+*.sfz
+output/
+outputs/
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+models/
+user_recordings/
