@@ -9,8 +9,14 @@ description = "CPU-first procedural composition extension for Penny AI"
 requires-python = ">=3.11"
 dependencies = []
 
+[project.optional-dependencies]
+susan = ["torch>=2.5"]
+
 [project.scripts]
 penny-music = "penny_music_studio.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["penny_music_studio*"]
+
+[project.optional-dependencies]
+susan = ["torch>=2.4,<3"]
